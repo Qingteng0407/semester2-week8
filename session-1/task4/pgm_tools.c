@@ -16,6 +16,12 @@
    - max_gray value
    - 2D array of pixel values (pixels)
 */
+typedef structure{
+    int width;
+    int height;
+    int max_gray;
+    unsigned char **pixels;
+}
 
 
 /* TODO: Update these function prototypes to use your PGMImage structure */
